@@ -1,1 +1,1 @@
-##Frontend template for my wordpress theme.
+## Frontend template for my wordpress theme.
