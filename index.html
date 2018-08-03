@@ -51,10 +51,32 @@
         </div>
     </nav>
 
+    <!--Search Modal -->
+    <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="ModalSearch" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ModalSearch">Search for Article</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Search Article" class="form-control roboto"/>
+                        </div>
+                    </form>
+                    <div id="searchresult"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Carousel section -->
     <div class="container-fluid rmpd">
         <div class="top-banner" style="background-image: url(assets/img/blog.png); background-position: center; background-size: cover; background-repeat: no-repeat; background-origin: initial">
-            <div class="banner flexbox text-center">
+            <div class="banner flexbox text-center wd-p-t">
                 <div class="mx-auto align-self-center">
                     <img style="background: transparent" src="assets/img/profilepic.png" alt="Profile picture" class="shadow-sm img-fluid img-thumbnail rounded-circle">
                     <h5 class="text-white">Software developer, Graphic designer, Tech enthusiast</h5>
@@ -73,7 +95,7 @@
     <!-- Blog container -->
     <div class="container bg-white blog-container">
 
-        <h1 class="bold" style="line-height: 0.6">Latest tutorials<br><small class="small text-secondary">My recent tutorials and articles</small></h1>
+        <h1 class="bold" style="line-height: 1">Latest tutorials<br><small class="small text-secondary">My recent tutorials and articles</small></h1>
 
         <div class="media md-line">
             <div class="media-body">

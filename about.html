@@ -43,15 +43,40 @@
                 <li class="nav-item">
                     <a href="#" class="nav-link">Buy me Coffee</a>
                 </li>
+                <li class="nav-item" data-toggle="modal" data-target="#searchModal">
+                    <span id="search" href="#search" class="nav-link"><span class="fa fa-search"></span></span>
+                </li>
             </ul>
         </div>
         </div>
     </nav>
 
+    <!--Search Modal -->
+    <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="ModalSearch" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ModalSearch">Search for Article</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Search Article" class="form-control roboto"/>
+                        </div>
+                    </form>
+                    <div id="searchresult"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Carousel section -->
     <div class="container-fluid rmpd">
         <div class="top-banner" style="background-image: url(assets/img/blog.png); background-position: center; background-size: cover; background-repeat: no-repeat; background-origin: initial">
-            <div class="postbanner flexbox text-center">
+            <div class="postbanner flexbox text-center wd-p-t">
                 <!--img style="background: transparent" src="assets/img/profilepic.png" alt="Profile picture" class="shadow-sm img-fluid img-thumbnail rounded-circle"-->
                 <h2 class="text-white mx-auto align-self-center bold">ABOUT UMAR</h2>
             </div>

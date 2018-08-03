@@ -43,10 +43,35 @@
                 <li class="nav-item">
                     <a href="#" class="nav-link">Buy me Coffee</a>
                 </li>
+                <li class="nav-item" data-toggle="modal" data-target="#searchModal">
+                    <span id="search" href="#search" class="nav-link"><span class="fa fa-search"></span></span>
+                </li>
             </ul>
         </div>
         </div>
     </nav>
+
+    <!--Search Modal -->
+    <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="ModalSearch" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ModalSearch">Search for Article</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Search Article" class="form-control roboto"/>
+                        </div>
+                    </form>
+                    <div id="searchresult"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Carousel section -->
     <div class="container-fluid rmpd">
