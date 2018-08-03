@@ -1,6 +1,14 @@
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #e6ecf0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .profilepic {
@@ -28,11 +36,15 @@ body {
     height: 50vh;
 }
 
+.banner img {
+    margin-top: 10vh;
+}
+
 .postbanner {
     height: 50vh;
 }
 
-.postbanner h2, .banner h2 {
+.postbanner h2 {
     padding-top: calc(50vh / 2.5);
 }
 
@@ -52,6 +64,11 @@ body {
 @media (min-width: 1200px) {
     .container {
         max-width: 900px;
+    }
+    .wd-p-t {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -120,6 +137,7 @@ body {
 
 .content p {
     font-family: 'Roboto', sans-serif;
+    color: #6c757d !important;
 }
 
 .content h1,
@@ -187,6 +205,7 @@ body {
     margin-left: 2em;
     margin-top: 1em;
     font-family: 'Roboto', sans-serif;
+    color: #6c757d !important;
 }
 
 .content ul {
@@ -194,6 +213,7 @@ body {
     margin-left: 2em;
     margin-top: 1em;
     font-family: 'Roboto', sans-serif;
+    color: #6c757d !important;
 }
 
 .content ul ul {
@@ -209,6 +229,7 @@ body {
 .content dd {
     margin-left: 2em;
     font-family: 'Roboto', sans-serif;
+    color: #6c757d !important;
 }
 
 .content figure {
@@ -216,6 +237,7 @@ body {
     margin-right: 2em;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    color: #6c757d !important;
 }
 
 .content figure:not(:first-child) {
@@ -274,6 +296,7 @@ body {
 
 .content table td {
     font-family: 'Roboto', sans-serif;
+    color: #6c757d !important;
 }
 
 .content table thead td,
