@@ -402,3 +402,7 @@ a:hover {
 .small {
     font-size: 40%;
 }
+
+#search {
+    cursor: pointer;
+}
